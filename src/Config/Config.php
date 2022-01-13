@@ -17,12 +17,5 @@ class Config {
     // Number of processes you want to run. It should be equal to CPU_CORES X 2
 
     const PROCESSES = 6;
-
-    // Database Credentials
-
-    const DB_HOST = '127.0.0.1';
-    const DB_USER = 'database_username';
-    const DB_PASS = 'database_password';
-    const DB_NAME = 'database_name';
-
+    
 }
