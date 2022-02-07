@@ -35,7 +35,7 @@ Please edit the **Config.php** file to include the path to your SSL certificate.
 
 [Workerman](https://github.com/walkor/workerman) is used to create the TCP server. It is an asynchronous event-driven PHP framework with high performance to build fast and scalable network applications.
 
-Workerman recommends **Event** extension recommended for better performance.
+Workerman recommends **Event** extension for better performance.
 
 ## Notice
 
