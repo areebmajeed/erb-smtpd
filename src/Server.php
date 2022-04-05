@@ -45,7 +45,6 @@ $tcp_worker->onWorkerStart = function () use ($tcp_worker) {
     $tcp_worker->session->setTCPWorker($tcp_worker);
 
     Timer::add(10, function () use ($tcp_worker) {
-        $tcp_worker->session->getHelper()->refreshConnection();
         $tcp_worker->session->killIdleConnections();
     });
 
